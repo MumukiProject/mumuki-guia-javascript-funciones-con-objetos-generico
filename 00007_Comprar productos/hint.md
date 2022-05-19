@@ -1,0 +1,1 @@
+Tal vez sea útil recorrer cada producto para clonarlo en un objeto junto con el valor booleano que defina si el mismo es de menor precio que el dinero disponible.
