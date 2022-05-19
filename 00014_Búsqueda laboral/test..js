@@ -3,14 +3,14 @@ describe("", function() {
    let persona = {
         experiencia: 4,
         lenguajes: ["JavaScript", "HTML","CSS"],
-        locacion: "Buenos Aires",
+        locacion: "Lima",
         remuneracion: 35000
       }
 
     let busqueda = {
       experiencia: 1,
       lenguajes: ["JavaScript", "HTML"],
-      locacion: ["Buenos Aires"],
+      locacion: ["Lima"],
       remuneracion: 40000
     }
 
@@ -23,14 +23,14 @@ describe("", function() {
    let persona = {
         experiencia: 1,
         lenguajes: ["JavaScript", "HTML","CSS"],
-        locacion: "Buenos Aires",
+        locacion: "Lima",
         remuneracion: 35000
       }
 
     let busqueda = {
       experiencia: 4 ,
       lenguajes: ["JavaScript", "HTML"],
-      locacion: ["Buenos Aires"],
+      locacion: ["Lima"],
       remuneracion: 40000
     }
 
@@ -43,14 +43,14 @@ describe("", function() {
    let persona = {
         experiencia: 4,
         lenguajes: ["CSS"],
-        locacion: "Buenos Aires",
+        locacion: "Lima",
         remuneracion: 35000
       }
 
     let busqueda = {
       experiencia: 4 ,
       lenguajes: ["JavaScript", "HTML"],
-      locacion: ["Buenos Aires"],
+      locacion: ["Lima"],
       remuneracion: 40000
     }
 
@@ -63,14 +63,14 @@ describe("", function() {
    let persona = {
         experiencia: 4,
         lenguajes: ["JavaScript", "HTML"],
-        locacion: "Buenos Aires",
+        locacion: "Lima",
         remuneracion: 45000
       }
 
     let busqueda = {
       experiencia: 4 ,
       lenguajes: ["JavaScript", "HTML"],
-      locacion: ["Buenos Aires"],
+      locacion: ["Lima"],
       remuneracion: 40000
     }
 
@@ -83,14 +83,14 @@ describe("", function() {
    let persona = {
         experiencia: 4,
         lenguajes: ["JavaScript", "HTML"],
-        locacion: "Las Heras",
+        locacion: "Río de Janerio",
         remuneracion: 45000
       }
 
     let busqueda = {
       experiencia: 4 ,
       lenguajes: ["JavaScript", "HTML"],
-      locacion: ["El Pato"],
+      locacion: ["Medellín"],
       remuneracion: 40000
     }
 
