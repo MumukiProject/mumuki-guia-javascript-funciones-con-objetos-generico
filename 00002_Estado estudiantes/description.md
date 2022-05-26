@@ -1,13 +1,13 @@
 Estamos diseñando un nuevo sistema para una facultad, y tenemos la información de las materias para cada estudiante en objetos donde cada propiedad es una materia que contiene un array con las notas de los resultados de los parciales. Por ejemplo:
 
 ```js
-let materiasAda = {
+let materiasAle = {
   matematica: [10, 6, 10, 8],
   algoritmos: [10, 10, 9],
   algebra: [7, 9]
 };
 
-let materiasGrace = {
+let materiasDani = {
   matematica: [2, 9, 10, 7],
   algoritmos: [7, 1, 9],
   algebra: [2, 3]
@@ -19,11 +19,11 @@ let materiasGrace = {
 - cada propiedad es un array que contiene el nombre de las materias que aprobaron o desaprobaron respectivamente.
 
 ```js
-ム agruparMateriasPorEstado(materiasAda)
+ム agruparMateriasPorEstado(materiasAle)
 { aprobadas: ['matematica', 'algoritmos', 'algebra'], desaprobadas: [] }
 
 
-ム agruparMateriasPorEstado(materiasGrace)
+ム agruparMateriasPorEstado(materiasDani)
 { aprobadas: ['matematica', 'algoritmos'], desaprobadas: ['algebra'] }
 ```
 
